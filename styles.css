@@ -1,6 +1,9 @@
-body{
+ body{
     font-family: Quicksand;
 }
+
+/* to nav---------- */
+
 .logo{
     margin: 10px;
     padding: 5px 0px 5px 30px;
@@ -16,28 +19,33 @@ body{
     font-size: 20px;
     /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
+
+/* to header------------- */
+
 .hedaecont{
-    background-color: rgb(147, 147, 187);
+    /* background: linear-gradient( 180deg, #ac00e6,  #ffffff , #ac00e6); */
+    background-color: hsla(276, 90%, 50% , 0.8);
     width: 100%;
     height: 400px;
-    margin: 50px 0 0 0 ;
+    margin: 70px 0 0 0 ;
     overflow: auto;
-    display:ruby;
 
 }
 .imagdevelop{
     float: right;
    margin-right: 20px;
    margin-top: 40px;
+   margin-bottom: 20px;
     clear: right;
-    width: 50% ;
-    height: 50%;
+    /* width: 50% ;
+    height: 50%; */
 }
 .h1H {
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: 20px;
     float: left;
     clear: left;
+    font-size: 30px;
     font-weight: 400;
     /* font-family:Verdana, Geneva, Tahoma, sans-serif;  */
     text-align: justify;
@@ -45,21 +53,25 @@ body{
 .pH{
     
     clear: left;
-    font-weight: 400;
-    font-size:20px;
+    font-weight: 600;
+    font-size:30px;
+    margin-left: 17px;
     /* font-family:'Times New Roman', Times, serif  */
    
 }
 .butth{
-    background-color: burlywood;
+    background-color: rgb(221, 189, 148);
     
-    width: 80px;
+    width: 100px;
     height: 60px;
     font-size: 25px;
-    align-items: center;
+    /* align-items: center; */
+    margin-left:10%;
     /* font-family: sans-serif; */
     
 }
+
+/* to cards------------- */
 
 .container {
     display: flex;
@@ -98,12 +110,170 @@ body{
       border-radius: 50%;
       padding: 20px;
       margin-top: 20px;
+      
       /* border: 3px solid #be1254; */
   }
   
+
+  /* to space white */
+
+
+  .getStart1{
+    display:inline;
+    align-items: center;
+    justify-content:center;
+}
+  #allget1{
+      float: right;
+      font-size: 20px;
+      font-weight: 400;
+      margin-top: 80px;
+      /* margin-left: 300px; */
+      margin-right: 20px;
+
+
+  }
+  .pget1{
+    font-weight: 500;
+    font-size: 15px;
+
+
+  }
+
+.imageget{
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+
+}
+
+/* end 1----------------- */
+
+.getStart2{
+    display:inline;
+    align-items: center;
+    justify-content:center;
+}
+#allget2{
+    float: left;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 80px;
+    
+    /* margin-left: 300px; */
+    /* margin-right: 900px; */
+
+
+}
+.pget2{
+  font-weight: 500;
+  font-size: 15px;
+
+}
+
+.imageget2{
+  float: right;
+  margin-top: 80px;
+  /* margin-left: 900px; */
+  overflow:auto;
+
+}
+ /* end 2 ----------------- */
+
+ .getStart3{
+    display:inline;
+    align-items: center;
+    justify-content:center;
+}
+#allget3{
+    float: right;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 80px;
+   
+
+
+}
+.pget3{
+  font-weight: 500;
+  font-size: 15px;
+
+}
+
+.imageget3{
+  float: left;
+  margin-top: 80px;
+  /* margin-left: 900px; */
+  margin-left: 20px;
+  overflow:auto;
+}
+
+.bluespace{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    height: 400px;
+    background-color: #2c0672;
+    font-family: 'Baloo Paaji 2', cursive;
+    color: white;
+}
+
+.formspace{
+    margin-top: 20px;
+    float: right;
+}
+.tpuch{
+    margin-top: 60px;
+    margin-right: 50px;
+    /* margin: 60px ; */
+    float: left;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer -------------------------------- */
+
+footer{
+    background-color: rgba(57, 57, 172 , 0.5); 
+
+    align-items: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+.textfooter{
+text-align: center;
+margin-left: 500px;
+
+}
+
+span{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(62, 19, 87);
+}
+
+
+
+
+
+
+
+
   @media (max-width: 700px) {
       .container{
           flex-direction: column;
       }
       
-  }
+  } */
