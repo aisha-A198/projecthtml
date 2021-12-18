@@ -115,99 +115,53 @@
   }
   
 
-  /* to space white */
-
-
-  .getStart1{
-    display:inline;
-    align-items: center;
-    justify-content:center;
-}
-  #allget1{
-      float: right;
-      font-size: 20px;
-      font-weight: 400;
-      margin-top: 80px;
-      /* margin-left: 300px; */
-      margin-right: 20px;
-
-
-  }
-  .pget1{
-    font-weight: 500;
-    font-size: 15px;
-
-
-  }
-
-.imageget{
-    float: left;
-    margin-top: 60px;
-    margin-left: 20px;
+  /* white space---------------------------------- */
+ 
+  .space1{
     display: flex;
-
-}
-
-/* end 1----------------- */
-
-.getStart2{
-    display:inline;
     align-items: center;
-    justify-content:center;
-}
-#allget2{
-    float: left;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 80px;
+    margin: 60px 40px 70px 40px;
+    justify-content:space-between;
+  }
+  .getimage1{
+    max-width: 20px;
+  }
+
+  .space2{
+    display: flex;
+    align-items: center;
+    /* margin: 60px 50px 70px 10px; */
+    margin-left: 50px;
+    margin-right: 300px;
+    justify-content:space-between;
+  }
+  .getimage2{
+    max-width: 20px;
+  }
+
+
+
+
+
+  .space3{
+    display: flex;
+    align-items: center;
+    margin: 60px 40px 70px 40px;
+    justify-content:space-between;
+  }
+  .getimage3{
+    max-width: 20px;
+  }
+
     
-    /* margin-left: 300px; */
-    /* margin-right: 900px; */
+  /* @media screen(max-width:700px) 
+  {
+  .space1 , .space2 , .space3{
+    flex-direction:column;      
+    }  
+  } */
 
 
-}
-.pget2{
-  font-weight: 500;
-  font-size: 15px;
-
-}
-
-.imageget2{
-  float: right;
-  margin-top: 80px;
-  /* margin-left: 900px; */
-  overflow:auto;
-
-}
- /* end 2 ----------------- */
-
- .getStart3{
-    display:inline;
-    align-items: center;
-    justify-content:center;
-}
-#allget3{
-    float: right;
-    font-size: 20px;
-    font-weight: 400;
-    margin-top: 80px;
-   
-
-
-}
-.pget3{
-  font-weight: 500;
-  font-size: 15px;
-
-}
-
-.imageget3{
-  float: left;
-  margin-top: 80px;
-  /* margin-left: 900px; */
-  margin-left: 20px;
-  overflow:auto;
-}
 
 .bluespace{
     
@@ -273,7 +227,9 @@ span{
 
   @media (max-width: 700px) {
       .container{
-          flex-direction: column;
+          flex-direction: column-reverse;
       }
-      
-  } */
+      .space1 , .space2 , .space3{
+        flex-direction:column;      
+        } 
+  } 
